@@ -27,18 +27,19 @@ The storage layer relies on two relational tables with active constraints:
 
 ### Prerequisites
 Ensure Python 3.8+ is installed on your environment. Install the necessary analytics dependencies via pip:
-```bash
-pip install streamlit pandas
+
+    pip install streamlit pandas
 
 ### Running the Components
-To launch the Command Line Interface utility:
-```bash
-python maderera.py
 
-To run the administrative desktop application interface:
-```bash
-python app_visual.py
+* To launch the Command Line Interface utility:
 
-To deploy the web dashboard instance locally:
-```bash
-streamlit run app_web.py
+    python maderera.py
+
+* To run the administrative desktop application interface:
+
+    python app_visual.py
+
+* To deploy the web dashboard instance locally:
+
+    streamlit run app_web.py
